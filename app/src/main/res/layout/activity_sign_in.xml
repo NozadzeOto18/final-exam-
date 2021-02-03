@@ -26,7 +26,10 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginBottom="10dp"
-            android:background="#3BFFFFFF"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ic_focuss_color"
+            android:drawableStart="@drawable/ic_email"
             android:hint="@string/email"
             android:paddingStart="10dp"
             android:singleLine="true"
@@ -37,20 +40,33 @@
             android:id="@+id/SignInPasswordEditText"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="#3BFFFFFF"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/ic_focuss_color"
+            android:drawableStart="@drawable/ic_lock"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:paddingStart="10dp"
             android:singleLine="true"
             android:textColorHint="@android:color/white" />
 
+
+        <CheckBox
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"
+            android:layout_marginEnd="107dp"
+            android:textColor="@android:color/holo_blue_light" />
+
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/SignInButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="20dp"
             android:background="@color/buttons_color"
             android:text="@string/login"
             android:textAllCaps="false"

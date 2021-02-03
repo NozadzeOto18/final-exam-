@@ -4,13 +4,18 @@
     <string name="signup">SignUp</string>
     <string name="repeat_password">Repeat password</string>
     <string name="password">Password</string>
-    <string name="email">Email</string>
+    <string name="email">Email address</string>
     <string name="login">Login</string>
     <string name="text">Text</string>
     <string name="save">Save</string>
     <string name="clear">Clear</string>
     <string name="type_here">Type here</string>
     <string name="back">Back</string>
-    <string name="note_1">Note 1</string>
-    <string name="note_2">Note 2</string>
+    <string name="note_1">Workout schedule </string>
+    <string name="note_2">Meeting</string>
+    <string name="job_tasks">Job tasks</string>
+    <string name="grocely_list">Grocely list</string>
+    <string name="note_title">Note title</string>
+    <string name="title">title</string>
+    <string name="remember_me">Remember me</string>
 </resources>

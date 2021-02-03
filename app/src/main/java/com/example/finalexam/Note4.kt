@@ -7,15 +7,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_note_2.*
-import kotlinx.android.synthetic.main.activity_note_2.ClearButton
-import kotlinx.android.synthetic.main.activity_note_2.NotePageET
+import kotlinx.android.synthetic.main.activity_note_4.*
+import kotlinx.android.synthetic.main.activity_note_4.ClearButton
+import kotlinx.android.synthetic.main.activity_note_4.NotePageET
 
-class Note2 : AppCompatActivity() {
+class Note4 : AppCompatActivity() {
     private lateinit var sharedPreference: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_note_2)
+        setContentView(R.layout.activity_note_4)
         init()
         reader()
     }
@@ -42,37 +42,36 @@ class Note2 : AppCompatActivity() {
     }
 
     fun save(view: View) {
-        val note2 = NotePageET.text.toString()
+        val note4 = NotePageET.text.toString()
         val editor = sharedPreference.edit()
-        editor.putString("note2", note2)
+        editor.putString("note4", note4)
         Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show()
         editor.apply()
     }
 
     fun reader() {
-        val note2 = sharedPreference.getString("note2", "")
-        NotePageET.setText(note2)
-        val note2title = sharedPreference.getString("note2title", "")
-        title2ET.setText(note2title)
+        val note4 = sharedPreference.getString("note4", "")
+        NotePageET.setText(note4)
+        val note4title = sharedPreference.getString("note4title", "")
+        title4ET.setText(note4title)
     }
+    private fun savetitle(){
+        var editor = sharedPreference.edit()
+        editor.putString("note4title", title4ET.text.toString())
+        editor.apply()
+    }
+
 
     fun back(v: View?) {
         savetitle()
         val intent = Intent(this, NotesPage::class.java)
-        if (title2ET.text.toString().isNotEmpty()) {
-            intent.putExtra("note2", title2ET.text.toString())
-        } else {
-            intent.putExtra("note2", "title")
+        if (title4ET.text.toString().isNotEmpty()) {
+            intent.putExtra("note4", title4ET.text.toString())
+        }else{
+            intent.putExtra("note4", "title")
 
         }
         startActivity(intent)
     }
-
-    private fun savetitle() {
-        val editor = sharedPreference.edit()
-        editor.putString("note2title", title2ET.text.toString())
-        editor.apply()
-    }
-
 
 }

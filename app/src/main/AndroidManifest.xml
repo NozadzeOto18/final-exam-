@@ -11,18 +11,22 @@
         android:roundIcon="@mipmap/icon_notes"
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalExam">
-        <activity android:name=".Note2"></activity>
-        <activity android:name=".NotesPage">
+        <activity android:name="com.example.finalexam.Note4" />
+        <activity android:name="com.example.finalexam.Note3" />
+        <activity android:name="com.example.finalexam.Note2" />
+        <activity android:name="com.example.finalexam.NotesPage"/>
+        <activity android:name="com.example.finalexam.Note1" />
+        <activity android:name="com.example.finalexam.SignUpPage" />
+        <activity android:name="com.example.finalexam.SignInPage" />
+        <activity android:name="com.example.finalexam.FirstPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".Note1" />
-        <activity android:name=".SignUpPage" />
-        <activity android:name=".SignInPage" />
-        <activity android:name=".FirstPage" />
+
     </application>
 
 </manifest>
