@@ -18,3 +18,9 @@ Your Note is a simple note taking app for Android
 ![146778211_458335595345507_1788746015308385492_n](https://user-images.githubusercontent.com/78607992/107062605-ea903d00-67f2-11eb-9b3e-38e15e91adba.jpg)
 ![147429581_222092402961710_14999151900341943_n](https://user-images.githubusercontent.com/78607992/107062601-e9f7a680-67f2-11eb-9e8b-07c8df830ab1.jpg)
 ![146998949_3855390227859884_6180007053223354905_n](https://user-images.githubusercontent.com/78607992/107062599-e9f7a680-67f2-11eb-8580-14ef35783663.jpg)
+# Built with
+- Android Studio - Official Android IDE by Google & JetBrains
+- Kotlin - Official programming language for native Android apps
+# Authors
+- Otar Nozadze
+- Ana Ioramashvili
