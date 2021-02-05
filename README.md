@@ -3,8 +3,8 @@ Your Note is a simple note taking app for Android
 # Features
 - Sign in function
 - Sign up function 
-- Add and View notes
-- Add note Title
+- Writes and read notes
+- Add note title
 - Clear and Go back function
 - Feature to auto save notes
 - Email address and password fills
