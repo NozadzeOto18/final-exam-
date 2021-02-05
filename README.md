@@ -10,6 +10,9 @@ Your Note is a simple note taking app for Android
 - Email adress and password fills
 - Repeat password 
 - Remember Me button feature
+# Goal
+- To take notes
+- To Sign in and Sign up in "Your Note" App
 # Screenshots
 ![146341435_1400167143658731_4899217066306625586_n](https://user-images.githubusercontent.com/78607992/107062598-e95f1000-67f2-11eb-806d-3b2cd534cf2c.jpg)
 ![146330484_482433542893559_6014315896181954575_n](https://user-images.githubusercontent.com/78607992/107062596-e95f1000-67f2-11eb-9adb-fa7311660a3f.jpg)
