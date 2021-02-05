@@ -7,7 +7,7 @@ Your Note is a simple note taking app for Android
 - Add note Title
 - Clear and Go back function
 - Feature to auto save notes
-- Email adress and password fills
+- Email address and password fills
 - Repeat password 
 - Remember Me button feature
 # Goal
