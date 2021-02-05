@@ -11,7 +11,7 @@ Your Note is a simple note taking app for Android
 - Repeat password 
 - Remember Me button feature
 # Description
-** In our App authentification is using by Firebase. We use Sharepreferences to save an information in Cash storage (Remember me, Note and Note Title). With Intent we exchange the info ** 
+** In our App authentification is using by Firebase. We use Sharepreferences to save an information in Cash storage (Remember me, Note and Note Title). With Intent we exchange the info between Notespage and Notes to add titles. ** 
 # Goal
 - To take notes
 - To Sign in and Sign up in "Your Note" App
